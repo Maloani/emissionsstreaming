@@ -1,2 +1,16 @@
 # emissionsstreaming
-EmissionsStreaming est une plateforme numérique dédiée à la diffusion en direct (live streaming) et à la distribution de contenus audiovisuels via Internet. Elle permet la transmission en temps réel d’émissions, de conférences, de formations, d’événements ou de programmes médiatiques à un public large et géographiquement dispersé.
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

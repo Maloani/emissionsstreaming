@@ -1,0 +1,49 @@
+name: emissionsstreaming
+description: "Application d'émissions de streaming Flutter avec lecture audio et vidéo en direct."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icônes iOS
+  cupertino_icons: ^1.0.8
+
+  # Grille d’images responsive
+  responsive_grid: ^2.4.4
+
+  # 🎧 Lecture audio (radio / streaming)
+  audioplayers: ^6.0.0
+
+  # 🎥 Lecture vidéo (TV / Live / HLS / MP4)
+  video_player: ^2.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Bonnes pratiques et lint
+  flutter_lints: ^5.0.0
+
+  # 🎨 Génération icône Android & iOS
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # 📁 Assets images (TV / Radios / Icône)
+  assets:
+    - assets/images/
+
+# 🟢 CONFIGURATION DE L’ICÔNE DE L’APPLICATION
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/images/icon.jpeg
+  adaptive_icon_background: "#FFC107"
+  adaptive_icon_foreground: assets/images/icon.jpeg
